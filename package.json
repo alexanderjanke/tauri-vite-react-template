@@ -8,8 +8,8 @@
     "preview": "vite preview",
     "tauri:dev": "tauri dev",
     "tauri:build": "tauri build",
-    "lint": "eslint src --ext .ts --ext .tsx",
-    "lint:fix": "eslint src --fix --ext .ts --ext .tsx"
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --fix --ext .ts,.tsx"
   },
   "dependencies": {
     "@tauri-apps/api": "^1.0.2",
