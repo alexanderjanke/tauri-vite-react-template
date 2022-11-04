@@ -58,7 +58,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "Anfragen beantworten",
+        "title": "Window title",
         "width": 800
       }
     ]
