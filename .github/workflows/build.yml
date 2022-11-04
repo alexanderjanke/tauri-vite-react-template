@@ -19,5 +19,7 @@ jobs:
           node-version: 18
       - name: Install dependencies
         run: yarn
-      - name: Build
+      - name: Build Vite
         run: yarn build
+      - name: Build Tauri
+        run: yarn tauri:build
